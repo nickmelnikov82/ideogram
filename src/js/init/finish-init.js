@@ -90,6 +90,8 @@ function finishInit(bandsArray, t0) {
 
   ideo.initDrawChromosomes(bandsArray);
 
+  console.log(confAnnots)
+
   if (config.annotationsPath) waitForAndProcessAnnots(ideo);
 
   processLabels(config, ideo);
